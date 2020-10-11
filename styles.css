@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+
+@font-face {
+  font-family: AR1;
+  src: url('./AR1.ttf');
+}
+
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100%;
+	scroll-behavior: smooth;
+	font-family: Nunito Sans, sans-serif;
+}
+
+.container{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.body{
+	display: flex;
+}
+
+.navbar{
+	width: 50px;
+	max-width: 50px;
+	padding: 0px;
+	text-align: center;
+	line-height: 25px;
+	background-color: #373737;
+	transition: 1s;
+	color: #FFF;
+	border-right: 1px solid rgb(255, 255, 255, 0.2);
+}
+
+.navbar:hover{
+	width: 200px;
+	max-width: 300px;
+}
+
+.tab{
+	cursor: pointer;
+	display: flex;	
+	border-bottom: 1px solid #fff;
+	transition: 0.5s;
+}
+
+.tab:hover{
+	background-color: rgb(255, 255, 255, 0.2);
+}
+
+.nav{
+	height: 24px;
+	line-height: 20px;
+	font-size: 20px;
+	padding-top: 18px;
+	padding-left: 4px;
+	font-weight: 600;
+}
+
+.main{
+	width: 100%;	
+	margin: 0 auto;
+}
+
+.material-icons{
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+	cursor:pointer; 
+	transition: 0.5s;
+}
+
+.head{
+	padding: 0 11px 0 11px;
+	text-align: left;
+	color: #151B26;
+	box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.8);
+	font-family: AR1;
+	font-size: 80px;
+	background-color: #fff;
+}
+
+.icon{
+	height: 35px;
+	float: right;
+	margin: 22px 11px 22px 11px;
+}
+
+.intro{
+	background-color: #373737;
+	color: #fff;
+	padding: 30px;
+	height: 100vh;
+}
+
+.intro p{
+	word-wrap: break-word;
+	width: 50%;
+	text-align: justify;
+}
